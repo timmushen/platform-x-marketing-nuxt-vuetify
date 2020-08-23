@@ -4,7 +4,7 @@ export default function (moduleOptions) {
   // get all options for the module depending on how its set up in nuxt
   const options = {
     ...moduleOptions,
-    ...this.options.platformXMarketingNuxtVuetify
+    ...this.options.XMarketingVuetify
   }
 
   this.nuxt.hook('components:dirs', (dirs) => {
